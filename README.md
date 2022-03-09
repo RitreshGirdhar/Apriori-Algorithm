@@ -1,4 +1,4 @@
-# Apriori Algorithm Demo
+# Apriori Algorithm - To Decide What Customers like
 
 Purpose of this demo application is to showcase how Apriori Algorithm works and And how using Data mining retail companies decide which Items to scrap and which item to keep based on the 
 knowledge and associated rules based on customer purchasing pattern.
