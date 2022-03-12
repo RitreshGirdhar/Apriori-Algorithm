@@ -1,6 +1,7 @@
 import xlrd
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 from FrequentItemSet import FreqItemSet
 
 def minimum_support():
@@ -137,3 +138,39 @@ def get_freq_item(datasetPath):
             print(j.itemset,j.supportCount,j.support,j.confidence,j.lift)
             tmp.append(f"[Frequent Item: {j.itemset}, confidence: {j.confidence}, supportCount: {j.supportCount}, confidence: {j.confidence},lift: {j.lift}]")
     return tmp
+
+def main(datasetPath):
+        # 1. Load dataset transactions
+        transactions = get_transactions(datasetPath)
+
+        # 2. divide the transactions into 100 datasets, random shuffling
+        sample_transactions = get_sample_transactions(transactions,10)
+
+        number_of_rules = 0
+        samples = []
+        rules = []
+        # 3. iterate each dataset
+        for i in range(0,len(sample_transactions)):
+            # 4. get unique candidates
+            candidates = unique_candidates(sample_transactions[i])
+            # 5. get initial candidates set , Support count 3.
+            # Considering only single parameter check We could use confidence,lift,support as well
+            frequent_itemset = inital_candidates(sample_transactions[i],candidates,3)
+            # 6. Get all the frequent_itemsets , max 10 unique_element allowing
+            tmp = frequent_itemsets(frequent_itemset,sample_transactions[i],10,3)
+
+            # 7. populating values to generate graph
+            number_of_rules = number_of_rules+ len(tmp)
+            samples.append(i)
+            rules.append(number_of_rules)
+            for j in tmp:
+                print("item-set",i,j.itemset,j.supportCount,j.support,j.confidence,j.lift)
+
+        plt.plot(rules,samples)
+        plt.xlabel('Number of rules')
+        plt.ylabel('Iterations')
+        plt.title('Grocery Recommendation!')
+        plt.show()
+
+# Execute Dataset
+main("Dataset.xlsx")

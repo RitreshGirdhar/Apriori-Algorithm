@@ -1,4 +1,5 @@
 
+# Class FreqItemSet reflecting Single FreqItemSet with support, supportCount, lift, confidence
 class FreqItemSet:
     def __init__(self,itemset):
         self.itemset=itemset
@@ -7,6 +8,7 @@ class FreqItemSet:
         self.confidence=0
         self.lift=0
 
+    # Update supportCount
     def updateSupportCount(self,transactions):
         count = 0
         for i in transactions:
@@ -24,10 +26,12 @@ class FreqItemSet:
                 count = count + 1
         return count
 
+    # Update support = supportCount/total
     def updateSupport(self,transactions):
         self.support = self.supportCount/ len(transactions)
         return
 
+    # Update confidence = supportCount(x)/supportCount(y). For X->Y
     def updateConfidence(self,x,y,transactions):
         self.confidence = self.getSupportCount(x,transactions) / self.getSupportCount(y,transactions)
         return

@@ -32,3 +32,9 @@ $ streamlit run apriori_main.py
 ```
 
 ![Home image](apriori/Home.png)
+
+
+## To run directly, use below command
+``` 
+python apriori.py
+```
