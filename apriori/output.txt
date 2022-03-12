@@ -1,0 +1,101 @@
+item-set 0 ['burgers', 'eggs', 'french fries', 'milk', 'mineral water'] 4 0.005333333333333333 0.058333333333333334 3.5714285714285707 
+item-set 0 ['burgers', 'chocolate', 'eggs', 'milk', 'mineral water'] 3 0.004 0.05 2.2959183673469385 
+item-set 0 ['burgers', 'chocolate', 'french fries', 'milk', 'mineral water'] 3 0.004 0.03571428571428571 3.2142857142857144 
+item-set 0 ['burgers', 'french fries', 'low fat yogurt', 'mineral water', 'spaghetti'] 3 0.004 0.02962962962962963 4.166666666666667 
+item-set 0 ['eggs', 'french fries', 'milk', 'mineral water', 'spaghetti'] 3 0.004 0.044444444444444446 2.777777777777778 
+item-set 0 ['chocolate', 'eggs', 'french fries', 'milk', 'mineral water'] 3 0.004 0.04285714285714286 2.6785714285714284 
+item-set 0 ['chocolate', 'eggs', 'milk', 'mineral water', 'spaghetti'] 4 0.005333333333333333 0.03571428571428571 4.285714285714286 
+item-set 0 ['eggs', 'green tea', 'herb & pepper', 'mineral water', 'spaghetti'] 3 0.004 0.05263157894736842 13.157894736842104 
+item-set 0 ['eggs', 'low fat yogurt', 'mineral water', 'pancakes', 'spaghetti'] 3 0.004 0.0784313725490196 11.029411764705882 
+item-set 0 ['eggs', 'mineral water', 'pasta', 'shrimp', 'spaghetti'] 3 0.004 0.13043478260869565 32.608695652173914 
+item-set 0 ['eggs', 'ham', 'mineral water', 'pancakes', 'spaghetti'] 3 0.004 0.058823529411764705 14.705882352941174 
+item-set 0 ['eggs', 'mineral water', 'olive oil', 'pasta', 'shrimp'] 3 0.004 0.1346153846153846 6.181318681318682 
+item-set 0 ['chocolate', 'eggs', 'french fries', 'milk', 'shrimp'] 3 0.004 0.02142857142857143 5.357142857142857 
+item-set 0 ['chocolate', 'eggs', 'frozen vegetables', 'milk', 'shrimp'] 3 0.004 0.02142857142857143 5.357142857142857 
+item-set 0 ['chocolate', 'french fries', 'milk', 'mineral water', 'spaghetti'] 3 0.004 0.02857142857142857 4.017857142857143 
+item-set 0 ['french fries', 'milk', 'mineral water', 'pancakes', 'spaghetti'] 3 0.004 0.0784313725490196 11.029411764705882 
+item-set 0 ['frozen vegetables', 'milk', 'mineral water', 'olive oil', 'soup'] 3 0.004 0.07692307692307693 10.817307692307693 
+item-set 0 ['chocolate', 'frozen vegetables', 'milk', 'mineral water', 'spaghetti'] 3 0.004 0.02857142857142857 4.017857142857143 
+item-set 0 ['chocolate', 'frozen vegetables', 'ground beef', 'milk', 'mineral water'] 4 0.005333333333333333 0.06578947368421052 7.894736842105263 
+item-set 1 ['chicken', 'milk', 'mineral water', 'olive oil', 'spaghetti'] 3 0.004 0.029197080291970802 4.105839416058394 
+item-set 1 ['cake', 'milk', 'mineral water', 'olive oil', 'spaghetti'] 3 0.004 0.021897810218978103 5.474452554744525 
+item-set 1 ['cake', 'frozen smoothie', 'milk', 'mineral water', 'turkey'] 3 0.004 0.07547169811320754 10.61320754716981 
+item-set 1 ['burgers', 'cake', 'frozen smoothie', 'mineral water', 'turkey'] 3 0.004 0.05660377358490566 14.150943396226415 
+item-set 1 ['chicken', 'chocolate', 'frozen smoothie', 'milk', 'mineral water'] 3 0.004 0.07547169811320754 10.61320754716981 
+item-set 1 ['cake', 'chicken', 'milk', 'mineral water', 'spaghetti'] 3 0.004 0.029197080291970802 4.105839416058394 
+item-set 1 ['chocolate', 'frozen vegetables', 'milk', 'olive oil', 'spaghetti'] 3 0.004 0.029197080291970802 4.105839416058394 
+item-set 1 ['cake', 'chocolate', 'milk', 'olive oil', 'parmesan cheese'] 3 0.004 0.04411764705882353 11.029411764705882 
+item-set 1 ['cake', 'chocolate', 'milk', 'olive oil', 'spaghetti'] 3 0.004 0.029197080291970802 4.105839416058394 
+item-set 1 ['chicken', 'frozen smoothie', 'milk', 'olive oil', 'pancakes'] 3 0.004 0.07547169811320754 10.61320754716981 
+item-set 1 ['avocado', 'frozen vegetables', 'milk', 'olive oil', 'spaghetti'] 3 0.004 0.12903225806451613 18.14516129032258 
+item-set 1 ['milk', 'olive oil', 'spaghetti', 'tomatoes', 'whole wheat rice'] 3 0.004 0.06 15.0 
+item-set 1 ['brownies', 'cake', 'honey', 'milk', 'turkey'] 3 0.004 0.12 30.0 
+item-set 1 ['cake', 'eggs', 'pancakes', 'spaghetti', 'turkey'] 3 0.004 0.06097560975609756 5.48780487804878 
+item-set 1 ['chocolate', 'eggs', 'herb & pepper', 'light cream', 'milk'] 3 0.004 0.02727272727272727 6.818181818181818 
+item-set 1 ['avocado', 'chocolate', 'frozen vegetables', 'milk', 'spaghetti'] 3 0.004 0.1935483870967742 12.096774193548388 
+item-set 1 ['chocolate', 'frozen vegetables', 'milk', 'spaghetti', 'whole wheat rice'] 3 0.004 0.13043478260869565 8.152173913043478 
+item-set 1 ['cereals', 'chocolate', 'frozen vegetables', 'milk', 'spaghetti'] 3 0.004 0.3157894736842105 19.736842105263158 
+item-set 2 ['burgers', 'chocolate', 'french fries', 'milk', 'spaghetti', 'whole wheat rice'] 3 0.004 0.02040816326530612 5.1020408163265305 
+item-set 2 ['frozen vegetables', 'mineral water', 'olive oil', 'pancakes', 'spaghetti', 'tomatoes'] 3 0.004 0.05263157894736842 13.157894736842104 
+item-set 2 ['chocolate', 'frozen vegetables', 'ground beef', 'mineral water', 'shrimp', 'spaghetti'] 3 0.004 0.016042780748663103 4.010695187165775 
+item-set 2 ['burgers', 'chocolate', 'eggs', 'french fries', 'ham', 'low fat yogurt'] 3 0.004 0.02040816326530612 5.1020408163265305 
+item-set 3 ['ground beef', 'mineral water', 'olive oil', 'salmon', 'shrimp', 'spaghetti'] 3 0.004 0.07894736842105263 19.736842105263158 
+item-set 3 ['chocolate', 'frozen vegetables', 'green tea', 'mineral water', 'olive oil', 'spaghetti'] 3 0.004 0.0380952380952381 5.357142857142857 
+item-set 4 ['cake', 'chocolate', 'eggs', 'mineral water', 'olive oil', 'soup'] 3 0.004 0.07692307692307693 19.230769230769234 
+item-set 5 ['grated cheese', 'ground beef', 'mineral water', 'pancakes', 'spaghetti'] 4 0.005333333333333333 0.13953488372093023 11.627906976744185 
+item-set 5 ['cooking oil', 'ground beef', 'mineral water', 'pancakes', 'spaghetti'] 3 0.004 0.13636363636363635 8.522727272727273 
+item-set 5 ['chocolate', 'ground beef', 'milk', 'pancakes', 'spaghetti'] 3 0.004 0.03773584905660377 5.306603773584905 
+item-set 5 ['eggs', 'frozen vegetables', 'ground beef', 'milk', 'spaghetti'] 4 0.005333333333333333 0.027210884353741496 5.10204081632653 
+item-set 5 ['eggs', 'ground beef', 'milk', 'mineral water', 'spaghetti'] 3 0.004 0.02040816326530612 5.1020408163265305 
+item-set 5 ['chocolate', 'eggs', 'ground beef', 'milk', 'spaghetti'] 3 0.004 0.027210884353741496 3.8265306122448974 
+item-set 5 ['cooking oil', 'eggs', 'ground beef', 'milk', 'spaghetti'] 3 0.004 0.1590909090909091 7.305194805194805 
+item-set 5 ['eggs', 'frozen vegetables', 'milk', 'mineral water', 'spaghetti'] 3 0.004 0.02040816326530612 5.1020408163265305 
+item-set 5 ['cooking oil', 'eggs', 'frozen vegetables', 'milk', 'spaghetti'] 3 0.004 0.11363636363636363 10.227272727272727 
+item-set 5 ['cooking oil', 'eggs', 'milk', 'mineral water', 'spaghetti'] 3 0.004 0.09090909090909091 12.78409090909091 
+item-set 5 ['cooking oil', 'frozen vegetables', 'green tea', 'mineral water', 'tomato juice'] 3 0.004 0.13043478260869565 32.608695652173914 
+item-set 6 ['chocolate', 'frozen vegetables', 'ground beef', 'low fat yogurt', 'milk', 'spaghetti'] 3 0.004 0.038461538461538464 9.615384615384617 
+item-set 7 ['herb & pepper', 'mineral water', 'pancakes', 'spaghetti', 'turkey'] 3 0.004 0.11363636363636363 10.227272727272727 
+item-set 7 ['chocolate', 'grated cheese', 'milk', 'mineral water', 'spaghetti'] 3 0.004 0.030612244897959183 7.653061224489797 
+item-set 7 ['chocolate', 'eggs', 'milk', 'mineral water', 'spaghetti'] 3 0.004 0.04081632653061224 5.7397959183673475 
+item-set 7 ['chocolate', 'eggs', 'frozen vegetables', 'ground beef', 'spaghetti'] 3 0.004 0.0380952380952381 5.357142857142857 
+item-set 7 ['chocolate', 'eggs', 'grated cheese', 'milk', 'spaghetti'] 3 0.004 0.030612244897959183 7.653061224489797 
+item-set 7 ['cereals', 'chocolate', 'milk', 'mineral water', 'shrimp'] 3 0.004 0.06896551724137931 9.698275862068966 
+item-set 7 ['chocolate', 'milk', 'mineral water', 'pancakes', 'shrimp'] 3 0.004 0.06896551724137931 9.698275862068966 
+item-set 7 ['burgers', 'chicken', 'chocolate', 'ground beef', 'milk'] 3 0.004 0.046875 11.71875 
+item-set 8 ['frozen vegetables', 'mineral water', 'pancakes', 'soup', 'spaghetti'] 3 0.004 0.017241379310344827 4.310344827586206 
+item-set 9 ['chocolate', 'eggs', 'mineral water', 'turkey'] 3 0.004 0.16279069767441862 7.475083056478404 
+item-set 9 ['chocolate', 'eggs', 'green tea', 'milk'] 3 0.004 0.052083333333333336 4.687499999999999 
+item-set 9 ['chocolate', 'escalope', 'green tea', 'pancakes'] 3 0.004 0.11320754716981132 7.0754716981132075 
+item-set 9 ['frozen vegetables', 'mineral water', 'tomatoes', 'whole wheat rice'] 3 0.004 0.09302325581395349 13.08139534883721 
+item-set 9 ['eggs', 'french fries', 'frozen vegetables', 'mineral water'] 3 0.004 0.07377049180327869 2.0491803278688527 
+item-set 9 ['eggs', 'frozen vegetables', 'mineral water', 'vegetables mix'] 3 0.004 0.34615384615384615 9.615384615384617 
+item-set 9 ['frozen vegetables', 'ground beef', 'mineral water', 'spaghetti'] 3 0.004 0.06521739130434782 4.076086956521739 
+item-set 9 ['frozen vegetables', 'low fat yogurt', 'mineral water', 'pancakes'] 3 0.004 0.07272727272727272 10.227272727272727 
+item-set 9 ['burgers', 'eggs', 'french fries', 'frozen vegetables'] 3 0.004 0.11290322580645161 5.184331797235023 
+item-set 9 ['burgers', 'french fries', 'frozen vegetables', 'spaghetti'] 3 0.004 0.06451612903225806 9.07258064516129 
+item-set 9 ['milk', 'mineral water', 'olive oil', 'spaghetti'] 3 0.004 0.05434782608695652 4.891304347826087 
+item-set 9 ['mineral water', 'pancakes', 'spaghetti', 'tomatoes'] 3 0.004 0.043478260869565216 6.114130434782609 
+item-set 9 ['burgers', 'eggs', 'mineral water', 'spaghetti'] 3 0.004 0.08064516129032258 7.258064516129032 
+item-set 9 ['eggs', 'mineral water', 'pasta', 'shrimp'] 3 0.004 0.23809523809523808 21.428571428571427 
+item-set 9 ['french fries', 'ground beef', 'mineral water', 'spaghetti'] 3 0.004 0.05434782608695652 4.891304347826087 
+item-set 9 ['ground beef', 'milk', 'mineral water', 'pancakes'] 3 0.004 0.060240963855421686 5.421686746987952 
+item-set 9 ['ground beef', 'mineral water', 'pancakes', 'whole wheat rice'] 4 0.005333333333333333 0.23255813953488372 6.976744186046511 
+item-set 9 ['ground beef', 'mineral water', 'pancakes', 'spaghetti'] 3 0.004 0.10869565217391304 2.4456521739130435 
+item-set 9 ['ground beef', 'mineral water', 'pancakes', 'red wine'] 3 0.004 0.45454545454545453 10.227272727272727 
+item-set 9 ['ground beef', 'mineral water', 'spaghetti', 'whole wheat rice'] 3 0.004 0.06521739130434782 4.076086956521739 
+item-set 9 ['french fries', 'mineral water', 'pancakes', 'spaghetti'] 3 0.004 0.043478260869565216 6.114130434782609 
+item-set 9 ['french fries', 'frozen smoothie', 'mineral water', 'pancakes'] 3 0.004 0.1111111111111111 15.625000000000002 
+item-set 9 ['cooking oil', 'milk', 'mineral water', 'pancakes'] 3 0.004 0.23333333333333334 10.714285714285714 
+item-set 9 ['milk', 'mineral water', 'nonfat milk', 'pancakes'] 3 0.004 0.7 32.14285714285714 
+item-set 9 ['cereals', 'low fat yogurt', 'mineral water', 'pancakes'] 3 0.004 0.09090909090909091 8.18181818181818 
+item-set 9 ['low fat yogurt', 'mineral water', 'pancakes', 'spaghetti'] 3 0.004 0.12727272727272726 5.844155844155844 
+item-set 9 ['frozen smoothie', 'low fat yogurt', 'mineral water', 'pancakes'] 3 0.004 0.19444444444444445 8.928571428571427 
+item-set 9 ['cookies', 'eggs', 'ground beef', 'spaghetti'] 3 0.004 0.03260869565217391 8.152173913043478 
+item-set 9 ['eggs', 'ground beef', 'herb & pepper', 'spaghetti'] 3 0.004 0.05434782608695652 4.891304347826087 
+item-set 9 ['burgers', 'eggs', 'ground beef', 'spaghetti'] 4 0.005333333333333333 0.12903225806451613 6.048387096774193 
+item-set 9 ['cottage cheese', 'french fries', 'herb & pepper', 'tomato juice'] 3 0.004 0.125 31.250000000000004 
+item-set 9 ['ground beef', 'herb & pepper', 'low fat yogurt', 'spaghetti'] 3 0.004 0.12727272727272726 5.844155844155844 
+item-set 9 ['french fries', 'low fat yogurt', 'pancakes', 'spaghetti'] 3 0.004 0.09090909090909091 8.18181818181818 
+item-set 9 ['burgers', 'milk', 'pasta', 'shrimp'] 3 0.004 0.19047619047619047 26.78571428571429 
+item-set 9 ['herb & pepper', 'low fat yogurt', 'pancakes', 'spaghetti'] 3 0.004 0.05454545454545454 13.636363636363637 
+item-set 9 ['burgers', 'pasta', 'shrimp', 'whole wheat rice'] 3 0.004 0.14285714285714285 35.714285714285715 

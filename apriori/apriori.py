@@ -4,28 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from FrequentItemSet import FreqItemSet
 
-def minimum_support():
-    return 3
-
-def generate_candidates(transactions):
-    return []
-
-def total():
-    return 10
-
-def support_count(items):
-    count = 0
-
-    return count
-
-def support(items):
-    return support_count()/total()
-
-
-def confidence(items,rules_item):
-    return support_count(items)/support_count(rules_item)
-
-
+# return transactions remove null values from each record
 def get_transactions(datasetPath):
     wb = pd.read_excel(datasetPath)
     df = pd.DataFrame(wb)
@@ -44,8 +23,7 @@ def get_transactions(datasetPath):
         transactions.append(temp)
     return transactions
 
-
-
+# Return unique elements of dataset with the number of times items occur
 def unique_candidates(transactions):
     itemsets = {}
     for i in transactions:
@@ -56,7 +34,7 @@ def unique_candidates(transactions):
                 itemsets.update({j: 1})
     return itemsets
 
-
+# Divide the dataset into n number of samples. Return dataset transactions by random shuffling
 def get_sample_transactions(transactions,number_of_samples):
     avg = len(transactions) / float(number_of_samples)
     out = []
@@ -66,7 +44,7 @@ def get_sample_transactions(transactions,number_of_samples):
         last += avg
     return out
 
-
+# Return initial combination of unique elements
 def inital_candidates(transactions,itemsets,min_support):
     candidates = []
     uniqueMap= {}
@@ -87,14 +65,17 @@ def inital_candidates(transactions,itemsets,min_support):
             temp.append(i)
     return temp
 
+# combine two list , remove duplicate item
 def union(list1,list2):
     temp =  list1 + list(set(list2) - set(list1))
     return sorted(temp)
 
+# print candidates list - used for testing
 def print_candidates(candidates):
     for i in candidates:
         print(i.itemset,i.supportCount)
 
+# return frequent itemsets for provided supportCount only and limit iteration with max iteration and
 def frequent_itemsets(candidates1,transactions,max_iteration,min_support):
     for x in range(0,max_iteration):
         unique_element = 3+x
@@ -126,19 +107,6 @@ def frequent_itemsets(candidates1,transactions,max_iteration,min_support):
         candidates1=temp
     return candidates1
 
-def get_freq_item(datasetPath):
-    transactions = get_transactions(datasetPath)
-    sample_transactions = get_sample_transactions(transactions,100)
-    tmp = []
-    for i in range(0,10):
-        candidates = unique_candidates(sample_transactions[i])
-        frequent_itemset = inital_candidates(sample_transactions[i],candidates,3)
-        t = frequent_itemsets(frequent_itemset,sample_transactions[i],10,3)
-        for j in t:
-            print(j.itemset,j.supportCount,j.support,j.confidence,j.lift)
-            tmp.append(f"[Frequent Item: {j.itemset}, confidence: {j.confidence}, supportCount: {j.supportCount}, confidence: {j.confidence},lift: {j.lift}]")
-    return tmp
-
 def main(datasetPath):
         # 1. Load dataset transactions
         transactions = get_transactions(datasetPath)
@@ -149,6 +117,7 @@ def main(datasetPath):
         number_of_rules = 0
         samples = []
         rules = []
+        output_file = open('output.txt', 'w')
         # 3. iterate each dataset
         for i in range(0,len(sample_transactions)):
             # 4. get unique candidates
@@ -165,7 +134,9 @@ def main(datasetPath):
             rules.append(number_of_rules)
             for j in tmp:
                 print("item-set",i,j.itemset,j.supportCount,j.support,j.confidence,j.lift)
+                output_file.write("item-set {} {} {} {} {} {} \n".format(i,j.itemset,j.supportCount,j.support,j.confidence,j.lift))
 
+        output_file.close()
         plt.plot(rules,samples)
         plt.xlabel('Number of rules')
         plt.ylabel('Iterations')
